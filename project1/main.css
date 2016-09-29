@@ -1,0 +1,61 @@
+.button {
+    background-color: #E07A85;
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 {border-radius: 8px;}
+
+
+ #top
+      {
+       position:fixed;
+       top:0;
+       left:0;
+       width:100%;
+       height:20%;
+       text-align:center;
+       background:#BAD1CE;
+      }
+
+#canvas
+        {
+         position: absolute;
+         top: 150px;
+         left:400px;
+         border: 1px solid gray;
+        }
+
+
+#clear-canvas
+       {
+        width:100%;
+        height:15%;
+        position:absolute;
+        }
+
+.leftborder
+    {
+    border: 2px solid #E7DBDB;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+ #left-side {
+        top:140px;
+        width:20%;
+        height:100%;
+        position:fixed;
+        background:#BFD3D1;
+      }
+img{
+    display: none;
+}
+
+

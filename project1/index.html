@@ -1,0 +1,41 @@
+!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="main.css"/>
+</style>
+<script src="main.js"></script>
+</head>
+
+<body style="background-color:#E7DBDB;">
+<div id=top style="color:black">
+<h1>PAINT</h1>
+
+<div  id=left-side style="color:#726C6C;">
+
+<p><label>Fill Color: <input id="fillBox" type="checkbox" checked="checked"></label></p>
+<div class="leftborder">
+<p><label>Fill Color:<input id="fillcolor" type="color" value="#24B005"></label></p>
+
+<p><label>Line Color:<input id="strokecolor" type="color"></label></p>
+
+</div>
+    <div class="leftborder">
+        <p><input type="radio" name="shape" value="line" checked="checked">Line</p>
+        <p><input type="radio" name="shape" value="circle">Circle</p>
+        <p><input type="radio" name="shape" value="polygon">Polygon</p>
+        <p><input type="radio" name="shape" value="square">square</p>
+        <p><input type="radio" name="shape" value="filledcircle">filled circle</p>
+    </div>
+</div>
+<div id=clear-canvas style="color:#F411F1">
+    <button class="button button1" onclick="clearcanvas()">clear canvas</button>
+</div>
+</div>
+<canvas id="canvas" width="650" height="500">
+</canvas>
+<img id="logo" src="logo.jpg">
+</body>
+</html>
+
